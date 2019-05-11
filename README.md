@@ -2,7 +2,7 @@
 프로토콜 버퍼는 구글에서 개발하고 오픈소스로 공개한 직렬화 데이터 구조로서 다양한 언어(python js php ruby go c++)을 지원하며 
 직렬화 속도가 빠르고 직렬화 된 파일의 크기가 작기도해서 Apache Avro 파일 포맷과 함께 이용한다.
 
-이렇게 직렬화된 데이터를 전송하기 위해 gRPC로도 사용하는 모습을 볼 수 있다.
+이렇게 직렬화된 데이터를 전송하기 위해 gRPC로도 사용하는 모습을 볼 수 있습니다.
 
 ### Go 설치하기
 https://golang.org/dl/ 에서 golang을 설치할 수 있습니다.
@@ -31,7 +31,7 @@ protoc -I .\api\ --go_out=./api .\api\Person.proto
 ### 더 많은 걸 알고 싶다면?
 아래의 문서을 한번 읽어보세요!
 
-(https://developers.google.com/protocol-buffers/docs/reference/proto3-spec)[protobuf specification]
+https://developers.google.com/protocol-buffers/docs/reference/proto3-spec - **protobuf specification**
 
 
 ### 트러블 슈팅
